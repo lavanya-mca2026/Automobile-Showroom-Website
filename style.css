@@ -87,3 +87,53 @@ body {
   text-align: center;
   padding: 20px;
 }
+.booking {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.booking input,
+.booking select {
+    display: block;
+    width: 300px;
+    margin: 15px auto;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.search-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.search-section input {
+    width: 300px;
+    padding: 12px;
+}
+.btn:hover{
+    background-color: orange;
+}
+
+.car-card{
+    transition:0.3s;
+}
+
+.car-card:hover{
+    transform: translateY(-10px);
+}
+@media(max-width:768px){
+
+.navbar{
+    flex-direction:column;
+}
+
+.nav-links{
+    flex-direction:column;
+}
+
+.car-items{
+    flex-direction:column;
+    align-items:center;
+}
+
+}
