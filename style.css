@@ -68,13 +68,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.car-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
 .about,
 .contact {
   text-align: center;
@@ -136,4 +129,37 @@ body {
     align-items:center;
 }
 
+}
+/* Vehicle Details Section */
+
+.vehicle-details {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.vehicle-details h2 {
+    margin-bottom: 40px;
+}
+
+.vehicle-card {
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
+    transition: 0.3s;
+}
+
+.vehicle-card:hover {
+    transform: translateY(-10px);
+}
+
+.vehicle-card h3 {
+    color: #1a1a1a;
+}
+
+.vehicle-card p {
+    color: gray;
+    font-size: 18px;
 }
