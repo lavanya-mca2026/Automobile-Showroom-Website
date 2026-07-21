@@ -163,3 +163,36 @@ body {
     color: gray;
     font-size: 18px;
 }
+
+/* Compare Vehicles Section */
+
+.compare-vehicles {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.compare-vehicles h2 {
+    margin-bottom: 30px;
+}
+
+.compare-vehicles table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.compare-vehicles th,
+.compare-vehicles td {
+    border: 1px solid lightgray;
+    padding: 15px;
+    text-align: center;
+}
+
+.compare-vehicles th {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.compare-vehicles tr:hover {
+    background-color: #f4f4f4;
+}
