@@ -196,3 +196,22 @@ body {
 .compare-vehicles tr:hover {
     background-color: #f4f4f4;
 }
+/* Customer Login Section */
+
+.customer-login {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.customer-login input {
+    display: block;
+    width: 300px;
+    margin: 15px auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+
+.customer-login button {
+    margin-top: 15px;
+}
