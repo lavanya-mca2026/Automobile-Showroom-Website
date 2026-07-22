@@ -215,3 +215,22 @@ body {
 .customer-login button {
     margin-top: 15px;
 }
+/* Customer Registration Section */
+
+.customer-registration {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.customer-registration input {
+    display: block;
+    width: 300px;
+    margin: 15px auto;
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+.customer-registration button {
+    margin-top: 15px;
+}
